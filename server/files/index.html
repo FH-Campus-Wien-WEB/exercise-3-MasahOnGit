@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Movies!</title>
-    <link rel="stylesheet" href="index.css" />
-    <script type="module" src="index.js"></script>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Movies</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js" defer></script>
+</head>
+<body>
+<header class="page-header">
+  <h1>My movies!</h1>
+  <p>Browse, filter and edit your movie collection.</p>
+</header>
 
-  <body>
-    <!-- Task 1.1. Add the semantic structure -->
-  </body>
+<nav class="genre-nav" aria-label="Movie genres"></nav>
+
+<main id="movie-list" class="movie-list" aria-live="polite"></main>
+
+<footer class="page-footer">
+  <p>&copy; 2026 Movie collection app</p>
+  <a href="https://www.fh-campuswien.ac.at/" target="_blank" rel="noopener noreferrer">FH Campus Wien</a>
+</footer>
+</body>
 </html>
